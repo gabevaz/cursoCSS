@@ -1,0 +1,12 @@
+/*************SMACSS - Tema*************/
+/*Conjunto diferenciado de cores, imagens e elementos*/
+/*Temas podem alterar estilos de qualquer outra categoria em SMACSS. Uma vez que para criação de tema pode ser necessario alterar base layout ou modules*/
+/*Por convenção, as regras de tema tem o prefixo 'theme-'*/
+
+/*Alterar por exemplo o estilo do botão passado no state.css*/
+
+.theme-christmas .btn[data-state="default"] {
+    color: #f00;
+}
+
+/*Geralmente a classe do tema é adicionada no body*/

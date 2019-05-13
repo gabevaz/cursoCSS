@@ -1,0 +1,20 @@
+/*************SMACSS - Estado*************/
+/*Como o proprio nome diz, estado quer dizer que algum elemento está em determinado estado, ou seja, uma especie de modificador, estados incrementam ou sobrescrevem outros estilos*/
+/*Geralmente, por padrão usa-se o prefixo 'is-' */
+/*Geralmente estilos de estado são associados a Javascript, pois como se trata de um estado que se alterna, essas classes devem ser inseridas dinamicamente*/
+/*Estado também podem ser definidos pelo elemento 'data-'*/
+
+.btn[data-state="default"] {
+    color: #333;
+}
+
+.btn[data-state="pressed"] {
+    color: #000;
+}
+
+.btn[data-state="disabled"] {
+    opacity: 5;
+    pointer-events: none;
+}
+
+/*Dentro da metodologia smacss nao há nenhuma restrição em usar !important no estado*/

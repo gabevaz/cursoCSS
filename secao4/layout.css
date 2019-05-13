@@ -1,0 +1,14 @@
+
+/*************SMACSS - Layout*************/
+/*A abrangencia de peças do layout, do que o visitante ve, partes maiores/mais abrangentes do site, como por exemplo propriedades e regras pro footer e header, estilos que dão a aparencia do site*/
+
+#article {
+    float: left;
+    width: 80%;
+}
+
+/*caso seja necessario alterar algo é possivel adicionar uma classe no body*/
+/*o padrão de nome da classe é como está abaixo, sendo l- de layout*/
+.l-fixed #article {
+    width: 600px;
+}

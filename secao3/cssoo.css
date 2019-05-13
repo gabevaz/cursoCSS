@@ -1,0 +1,39 @@
+/*CSS Orientado a Objeto*/
+/*Como o proprio conceito de orientação objeto diz, o CSSOO serve para evitar repetição de código*/
+
+/* 1° Principio  CSSOO:  Separação  de estrutura e visual (skin) */
+.box {
+    height: 100px;
+    outline: 1px solid #fff;
+    width: 100px;
+}
+
+.box-red {
+    background-color: #f00;
+}
+
+.box-green {
+    background-color: #0f0;
+}
+
+.box-blue {
+    background-color: #00f;
+}
+
+/* 2º Principio CSSOO: Independencia entre container e conteudo */
+
+.title {
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+aside .title {
+    font-size: 2em;
+    text-shadow: rgba(0,0,0, .3) 3px 3px 4px;
+}
+
+footer .title {
+    font-size: 1.5em;
+    text-shadow: rgba(0,0,0, .3) 2px 2px 4px;
+}

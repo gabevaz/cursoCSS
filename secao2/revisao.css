@@ -1,0 +1,32 @@
+/*Ordem de especificidade do css*/
+    /* a-) Estilos inline */
+    /* b-) IDs */
+    /* c-) Classes, pseudoclasses e atributos */
+    /* d-) Elementos e pseudoelementos */
+
+/*Exemplo:*/
+
+h1 {} /* 0001 */
+
+#content h1 {} /* 0101 */
+
+#sidebar ul li a.myclass:hover {} /* 0123 */
+
+
+/*Eficiencia inerente de seletores css*/
+
+#header {}          /*ID*/
+.promo {}           /*Classe*/
+div {}              /*Tipo*/
+h2 + p {}           /*Irmão adjacente*/
+li > ul {}          /*Filho*/
+ul a {}             /*Descendente*/
+* {}                /*Universal*/
+[type="text"] {}    /*Atributo*/
+a:hover {}          /*Pseudoclasse / Pseudoelemento*/
+
+/*O browser le o codigo css de trás pra frente, por isso não é interessante ter muito seletores*/
+
+/*Isso: */ #linklist .links{} /*é mais eficiente que isso: */ div .sidebar #linklist .links{}
+
+/*Esses seletores são chamados de seletores superqualificados*/

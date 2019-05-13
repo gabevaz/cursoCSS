@@ -1,0 +1,14 @@
+/*Bloco*/ 
+    /*Entidade independente que tem o seu proprio significado. Podemos associar os modulos do smacss com os blocos do bem.*/
+    .search {}
+
+/*Elemento*/
+    /*Dentro das convenções um elemento está dentro de um bloco, portanto um elemento é descendente de um bloco*/
+    /*A convenção para elemento é usar dois underlines, no caso, indica que o search é um bloco e o field um elemento*/
+    .search__field {}
+
+/*Modificador*/
+    /*Um "estado" ou "versão" diferente de um Bloco ou Elemento*/
+    /*A convenção para modificador é usar dois hifens, no caso, indica que o search é um bloco e o field um elemento e o error é um modificador deste, mas poderia também ter um modificador no bloco*/
+    .search__field--error {}
+    .search--error{}

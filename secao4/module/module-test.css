@@ -1,0 +1,20 @@
+/*************SMACSS - Módulos*************/
+/*Componente mais especificos dentro da construção do front-end. Os mais usados e em mais quantidade. Exemplos: Barra de navegação, busca, widgets. Componentes que montam o site, e estão dentro do layout*/
+/*Caracteristicas principais: Deve ser Independente e Intercambiável (pode trocar de página) */
+/*Importante: evitar o uso de elementos no modulo e usar classes. Não usar IDs pois os modulos podem ser reutilizados, e IDs devem ser unicos na página*/
+
+.article {
+
+}
+
+    .article .article-title {
+
+    }
+
+    .article .article-summary {
+        
+    }
+
+    .article .article-content {
+        
+    }
